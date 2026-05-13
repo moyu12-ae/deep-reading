@@ -1,0 +1,24 @@
+{
+  "name": "deep-reading-marketplace",
+  "description": "深度阅读 Claude Code 插件市场——将书籍读薄为结构化笔记，再将概念读厚为知识卡片网络",
+  "owner": {
+    "name": "moyu12-ae"
+  },
+  "plugins": [
+    {
+      "name": "deep-reading",
+      "description": "深度阅读工作区管理——将书籍读薄为结构化目录笔记，再将关键概念读厚为延伸的概念卡片网络，在 Obsidian 中形成知识图谱。自动同步阅读进度和概念数量。",
+      "author": {
+        "name": "moyu12-ae"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/moyu12-ae/deep-reading.git",
+        "path": "deep-reading",
+        "ref": "master"
+      },
+      "homepage": "https://github.com/moyu12-ae/deep-reading"
+    }
+  ]
+}
