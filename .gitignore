@@ -1,0 +1,9 @@
+# 测试文件（含版权书籍 epub 等）
+test/
+
+# macOS
+.DS_Store
+
+# 临时文件
+*.pyc
+__pycache__/

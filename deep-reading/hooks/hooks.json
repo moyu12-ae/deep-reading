@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/scripts/auto-sync.py",
+            "description": "Auto-sync CLAUDE.md reading progress and concept counts",
+            "timeout": 30000,
+            "continueOnError": true
+          },
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/scripts/check-consistency.py",
+            "description": "Check bidirectional link consistency silently",
+            "timeout": 30000,
+            "continueOnError": true
+          }
+        ]
+      }
+    ]
+  }
+}

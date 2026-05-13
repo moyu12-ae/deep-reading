@@ -1,0 +1,10 @@
+{
+  "name": "deep-reading",
+  "version": "1.0.0",
+  "description": "深度阅读工作区管理——将书籍读薄为结构化笔记，再将关键概念读厚为延伸的概念卡片网络，在 Obsidian 中形成知识图谱。自动同步工作区 CLAUDE.md 与书籍文件夹的阅读进度和概念数量。",
+  "author": {
+    "name": "moyu12-ae"
+  },
+  "license": "MIT",
+  "keywords": ["reading", "obsidian", "knowledge-graph", "notes", "deep-reading"]
+}
